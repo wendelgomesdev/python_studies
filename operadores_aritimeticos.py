@@ -1,0 +1,10 @@
+valor1 = int(input(' Digite um numero: '))
+valor2 = int(input(' Digite outro numero: '))
+
+print(' Soma: ',valor1 + valor2)
+print(' Subtração: ',valor1 - valor2)
+print(' Multiplicação: ',valor1*valor2)
+print(' Divisão: ', valor1/valor2)
+print(' Divisão inteira: ',valor1//valor2)
+print(' Módulo: ',valor1%valor2)
+print(' Exponenciacão', valor1**valor2)
