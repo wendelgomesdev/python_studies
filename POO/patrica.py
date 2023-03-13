@@ -57,37 +57,7 @@ class Queue:
     def __str__(self):
         return self.__repr__()
 
-""" 
-class ProcessQueue:
-    def __init__(self):
-        self.processes = Queue()
 
-    def insert_process(self, process):
-        self.processes.push(elem=process)
-
-        if len(self.processes) == 1:
-            self.start_process()
-    
-    def call_next(self):
-        self.start_process()
-
-    def start_process(self):
-        self.processes.peek()()
-
-        self.processes.pop()
-
-        if len(self.processes) > 0:
-            self.call_next()
-
-a = ProcessQueue()
-
-a.insert_process(funcao)
-a.insert_process(funcao)
-a.insert_process(funcao)
-a.insert_process(funcao)
-a.insert_process(funcao)
-a.insert_process(funcao)
- """
 
 class App(Janela):
     def __init__(self):
