@@ -136,25 +136,4 @@ class App(Janela):
 
 if __name__ == "__main__":
     app = App()
-    app.mainloop()
-
-""" 
-from PIL import Image
-
-class Wimp:
-        
-    def proporcional_crop(imagem, proporcao):
-        return imagem
-
-    def insert_frame(imagem, ):
-        pass
-'https://stackoverflow.com/questions/11287402/how-to-round-corner-a-logo-without-white-backgroundtransparent-on-it-using-pi'
-image_opened = Image.open(r'G:\Meu Drive\python\POO\space-chimp-ham-monkey-astronaut-grawitz-tumor.jpg')
-
-a = Wimp(image_opened)
-img = a.imagem()
-
-image_opened = img.convert('RGBA')
-
-print(image_opened.mode)
- """
+    app.mainloop()
